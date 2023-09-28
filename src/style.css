@@ -1,33 +1,36 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #d2eef5d8;
+  background-image: url("imagenes/imagen-fondo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 
 h1 {
   text-align: center;
   margin-top: 20px;
   color: rgb(23, 90, 100);
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.342);
+  text-shadow: 2px 2px 3px rgba(136, 69, 69, 0.267);
 }
 
 main {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #ebf3ed;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #dbd6e6d5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+  border-radius: 8px;
 }
 
 textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #e2dde6;
   border-radius: 5px;
   height: 189px;
   width: 580px;
+  color: #162222b6;
 }
 
 ul {
@@ -37,12 +40,12 @@ ul {
 
 li {
   margin-bottom: 5px;
-  background-color: #5e98a060;
+  background-color: #5e98a036;
   padding: 10px;
-  border: 1px solid #e4f0e3;
+  border: 1px solid #7aaf96;
   border-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(99, 105, 104, 0.1);
-  text-shadow: 2px 2px 3px rgba(54, 61, 100, 0.363);
+  box-shadow: 0px 4px 4px rgba(51, 95, 88, 0.26);
+  text-shadow: 2px 2px 3px rgba(54, 61, 100, 0.171);
   color: #2b5245;
   text-align: center;
 }
@@ -63,8 +66,9 @@ button {
   padding: 15px 40px;
   margin: 0 auto;
   cursor: pointer;
-  transition: box-shadow 0.3s;
-  text-shadow: 2px 2px 3px rgba(197, 197, 204, 0.363);
+  transition: box-shadow 0.2s;
+  text-shadow: 2px 2px 3px rgba(69, 69, 141, 0.486);
+  box-shadow: 0px 4px 4px rgba(89, 94, 93, 0.185);
 }
 
 button:hover {
@@ -75,7 +79,7 @@ footer {
   text-align: center;
   margin-top: 20px;
   color: rgb(23, 90, 100);
-  text-shadow: 2px 2px 3px rgba(202, 18, 18, 0.274);
+  text-shadow: 2px 2px 3px rgba(126, 65, 65, 0.253);
 }
 
 footer strong {
