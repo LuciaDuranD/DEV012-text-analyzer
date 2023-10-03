@@ -43,8 +43,15 @@ function metricas() {
   wordCountElement.textContent = `Palabras: ${wordCount}`;
   characterCountElement.textContent = `Caracteres: ${characterCount}`;
   characterNoSpacesCountElement.textContent = `Caracteres Sin Espacio: ${characterNoSpacesCount}`;
-  numberCountElement.textContent = `Números: ${numberCount}`;
-  numberSumElement.textContent = `Suma Números: ${numberSum}`;
+
+  if (numberCount === 0) {
+    numberCountElement.textContent = "Números: 0";
+    numberSumElement.textContent = "Suma Números: 0";
+  } else {
+    numberCountElement.textContent = `Números: ${numberCount}`;
+    numberSumElement.textContent = `Suma Números: ${numberSum}`;
+  }
+
   wordLengthAverageElement.textContent = `Promedio Longitud: ${wordLengthAverage.toFixed(
     2
   )}`;

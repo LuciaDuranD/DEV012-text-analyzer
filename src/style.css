@@ -3,7 +3,7 @@ body {
   background-image: url("imagenes/imagen-fondo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
 h1 {
@@ -38,7 +38,7 @@ ul {
   padding: 0;
 }
 
-li {
+.lis {
   margin-bottom: 5px;
   background-color: #5e98a036;
   padding: 10px;
@@ -59,8 +59,6 @@ textarea[name="user-input"] {
 
 button {
   display: block;
-  background-color: #22976073;
-  color: #ffffff;
   border: none;
   border-radius: 10px;
   padding: 15px 40px;
@@ -69,6 +67,11 @@ button {
   transition: box-shadow 0.2s;
   text-shadow: 2px 2px 3px rgba(69, 69, 141, 0.486);
   box-shadow: 0px 4px 4px rgba(89, 94, 93, 0.185);
+}
+
+#reset-button {
+  background-color: #469e8b;
+  color: #f3f3eb;
 }
 
 button:hover {
@@ -85,4 +88,8 @@ footer {
 footer strong {
   font-weight: bold;
   display: inline-block;
+}
+
+header {
+  text-shadow: 2px 2px 3px rgba(126, 65, 65, 0.253);
 }
