@@ -17,29 +17,14 @@ const wordLengthAverageElement = document.querySelector(
 );
 const resetButton = document.getElementById("reset-button");
 
-resetButton.addEventListener("click", function () {
-  if (textarea.value === "") {
-    alert("Debes escribir algo para que pueda ser analizado.");
-  } else {
-    textarea.value = "";
-    metricas();
-  }
-});
-
-textarea.addEventListener("input", function () {
-  metricas();
-});
-
-function metricas() {
-  const texto = textarea.value;
-  const wordCount = analyzer.getWordCount(texto);
-  const characterCount = analyzer.getCharacterCount(texto);
-  const characterNoSpacesCount =
-    analyzer.getCharacterCountExcludingSpaces(texto);
-  const numberCount = analyzer.getNumberCount(texto);
-  const numberSum = analyzer.getNumberSum(texto);
-  const wordLengthAverage = analyzer.getAverageWordLength(texto);
-
+function actualizarElementos(
+  wordCount,
+  characterCount,
+  characterNoSpacesCount,
+  numberCount,
+  numberSum,
+  wordLengthAverage
+) {
   wordCountElement.textContent = `Palabras: ${wordCount}`;
   characterCountElement.textContent = `Caracteres: ${characterCount}`;
   characterNoSpacesCountElement.textContent = `Caracteres Sin Espacio: ${characterNoSpacesCount}`;
@@ -57,4 +42,36 @@ function metricas() {
   )}`;
 }
 
+function metricas() {
+  const texto = textarea.value;
+  const wordCount = analyzer.getWordCount(texto);
+  const characterCount = analyzer.getCharacterCount(texto);
+  const characterNoSpacesCount =
+    analyzer.getCharacterCountExcludingSpaces(texto);
+  const numberCount = analyzer.getNumberCount(texto);
+  const numberSum = analyzer.getNumberSum(texto);
+  const wordLengthAverage = analyzer.getAverageWordLength(texto);
+
+  actualizarElementos(
+    wordCount,
+    characterCount,
+    characterNoSpacesCount,
+    numberCount,
+    numberSum,
+    wordLengthAverage
+  );
+}
+
+textarea.addEventListener("input", metricas);
+
+resetButton.addEventListener("click", function () {
+  if (textarea.value === "") {
+    alert("Debes escribir algo para que pueda ser analizado.");
+  } else {
+    textarea.value = "";
+    metricas();
+  }
+});
+
+metricas();
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
