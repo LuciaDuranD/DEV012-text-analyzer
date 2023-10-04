@@ -1,10 +1,12 @@
 const analyzer = {
   getWordCount: (text) => {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
-    const words = text.split(/\s+/);
-    const nonEmptyWords = words.filter((word) => word.trim() !== "");
+    const palabras = text.split(/\s+/);
+    const palabrasNoVacias = palabras.filter(
+      (palabras) => palabras.trim() !== ""
+    );
 
-    return nonEmptyWords.length;
+    return palabrasNoVacias.length;
   },
   getCharacterCount: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
@@ -12,12 +14,12 @@ const analyzer = {
   },
   getCharacterCountExcludingSpaces: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
-    const validCharacters = text.replace(/[^a-zA-Z0-9]/g, ""); // Eliminar espacios y signos de puntuación
-    return validCharacters.length;
+    const caracteresValidos = text.replace(/[^a-zA-Z0-9]/g, "");
+    return caracteresValidos.length;
   },
   getAverageWordLength: (text) => {
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
-    const words = text.split(/\s+/); // Dividir por espacios en blanco
+    const words = text.split(/\s+/);
     const totalWordLength = words.reduce((sum, word) => sum + word.length, 0);
     const averageWordLength = totalWordLength / words.length;
     return isNaN(averageWordLength)
