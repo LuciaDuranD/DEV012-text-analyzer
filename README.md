@@ -13,25 +13,34 @@ El Analizador de Texto ofrece una amplia gama de funcionalidades que te ayudará
 
 ### Métricas Básicas:
 
-- Recuento de palabras: ¿Cuántas palabras contiene el texto? Descúbrelo con un solo vistazo.
+- Recuento de palabras:
+  ¿Cuántas palabras contiene el texto? Descúbrelo con un solo vistazo.
 
-- Recuento de caracteres: ¿Necesitas saber cuántos caracteres hay en el texto, incluyendo espacios y signos de puntuación? Esta métrica te lo dice.
+- Recuento de caracteres:
+  ¿Necesitas saber cuántos caracteres hay en el texto, incluyendo espacios y signos de puntuación? Esta métrica te lo dice.
 
-- Recuento de caracteres excluyendo espacios y signos de puntuación: A veces, es importante saber cuántos caracteres hay en el texto sin contar los espacios y signos de puntuación. ¡Te lo mostramos!
+- Recuento de caracteres excluyendo espacios y signos de puntuación:
+  A veces, es importante saber cuántos caracteres hay en el texto sin contar los espacios y signos de puntuación. ¡Te lo mostramos!
 
-- Recuento de números: ¿Cuántos números se encuentran en el texto? Obtén la respuesta al instante.
+- Recuento de números:
+  ¿Cuántos números se encuentran en el texto? Obtén la respuesta al instante.
 
-- Suma total de números: Si el texto contiene números, ¿por qué no obtener la suma de todos ellos automáticamente?
+- Suma total de números:
+  Si el texto contiene números, ¿por qué no obtener la suma de todos ellos automáticamente?
 
-- Longitud media de las palabras: Conoce cuál es la longitud promedio de las palabras en el texto.
+- Longitud media de las palabras:
+  Conoce cuál es la longitud promedio de las palabras en el texto.
 
 ## Interfaz Amigable:
 
-- Entrada de Texto: Simplemente escribe o pega el texto que deseas analizar en el cuadro de texto. La aplicación se encargará del resto.
+- Entrada de Texto:
+  Simplemente escribe o pega el texto que deseas analizar en el cuadro de texto. La aplicación se encargará del resto.
 
-- Actualización en Tiempo Real: A medida que escribas, las métricas se calcularán y se mostrarán de inmediato en la interfaz. ¡Nunca fue tan fácil obtener información en tiempo real!
+- Actualización en Tiempo Real:
+  A medida que escribas, las métricas se calcularán y se mostrarán de inmediato en la interfaz. ¡Nunca fue tan fácil obtener información en tiempo real!
 
-- Botón de Reinicio: Si deseas borrar el contenido del cuadro de texto y empezar de nuevo, simplemente haz clic en el botón "Limpiar métricas".
+- Botón de Reinicio:
+  Si deseas borrar el contenido del cuadro de texto y empezar de nuevo, simplemente haz clic en el botón "Limpiar métricas".
 
 ## Tecnologías Utilizadas
 
