@@ -68,15 +68,15 @@ Este proyecto está construido con las siguientes tecnologías.
 
 - **Prototipo inicial**
 
-(![Alt text](image.png))
+![Alt text](image.png)
 
 - **Segundo prototipo**
 
-(![Alt text](image-3.png))
+![Alt text](image-3.png)
 
 - **Prototipo final**
 
-(![Alt text](image-2.png))
+![Alt text](image-2.png)
 
 ### Cómo Usar
 
