@@ -64,6 +64,20 @@ Este proyecto está construido con las siguientes tecnologías.
     └── analyzer.spec.js
 ```
 
+## Prototipos
+
+- **Prototipo inicial**
+
+(![Alt text](image.png))
+
+- **Segundo prototipo**
+
+(![Alt text](image-3.png))
+
+- **Prototipo final**
+
+(![Alt text](image-2.png))
+
 ### Cómo Usar
 
 1. Escribe o pega el texto que deseas analizar en el cuadro de texto.

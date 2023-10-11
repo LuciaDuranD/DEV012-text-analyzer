@@ -18,7 +18,6 @@ const analyzer = {
     for (let i = 0; i < words.length; i++) {
       const palabra = words[i];
 
-      // Si la palabra no está vacía, cuenta como una palabra
       if (palabra !== "") {
         contador++;
       }
